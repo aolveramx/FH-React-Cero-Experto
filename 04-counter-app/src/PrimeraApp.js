@@ -12,7 +12,7 @@ const PrimeraApp = ({saludo, subtitulo}) => {
 PrimeraApp.propTypes = {
   saludo: PropTypes.string.isRequired,
 }
-
+ 
 PrimeraApp.defaultProps = {
   subtitulo: '',
 }
