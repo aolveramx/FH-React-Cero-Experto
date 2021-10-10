@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in GifGrid.js should render items when image rendering useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon Ball
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="cualquier cosa"
+      url="http://localhost/cualquierCosa.jpg"
+    />
+    <GifGridItem
+      id="CBA"
+      key="CBA"
+      title="cualquier cosa"
+      url="http://localhost/cualquierCosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Tests in GifGrid.js should render sucessful 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon Ball
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
