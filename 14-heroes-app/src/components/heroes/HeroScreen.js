@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 import { useParams, Redirect } from 'react-router-dom'
-import { getHeroById } from "../selectors/getHeroById"
+import { getHeroById } from "../../selectors/getHeroById"
 
 const HeroScreen = ({ history }) => {
 

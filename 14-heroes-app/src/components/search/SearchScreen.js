@@ -2,7 +2,7 @@ import queryString from 'query-string'
 import useForm from "../../hooks/useForm"
 
 import { getHeroesByName } from '../../selectors/getHeroesByName'
-import HeroCard from "../../heroes/HeroCard"
+import HeroCard from "../heroes/HeroCard"
 import { useLocation } from "react-router"
 import { useMemo } from 'react'
 

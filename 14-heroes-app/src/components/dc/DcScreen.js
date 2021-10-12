@@ -1,4 +1,4 @@
-import HeroList from "../../heroes/HeroList"
+import HeroList from "../heroes/HeroList"
 
 const DcScreen = () => {
   return (
